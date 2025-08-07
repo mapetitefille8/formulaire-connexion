@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire de connexion</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#" method="post">
+      <h1>Formulaire de Connexion</h1>
+      <div class="information">
+        <label class="obligatoire" for="user_name">Nom d’utilisateur</label>
+        <input
+          type="text"
+          name="user_name"
+          id="user_name"
+          placeholder="Entrez votre nom d’utilisateur"
+          required
+        />
+        <label class="obligatoire" for="pass_word">Mot de passe</label>
+        <input
+          type="password"
+          name="pass_word"
+          id="pass_word"
+          placeholder="Entrez Votre Mot de passe"
+          required
+        />
+        <label for="remember_me"
+          ><input type="checkbox" name="remember_me" id="remember_me" checked />
+          Rester connecté</label
+        >
+        <button type="submit">Se connecter</button>
+      </div>
+      <div class="aide">
+        <a href="#">Vous n'avez pas de compte ?</a>
+        <a href="#">Mot de passe oublié ?</a>
+      </div>
+    </form>
+  </body>
+</html>
